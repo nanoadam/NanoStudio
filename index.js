@@ -4,7 +4,7 @@ let mainWindow;
 
 createWindow = () => {
   mainWindow = new BrowserWindow({});
-  mainWindow.loadFile('index.html');
+  mainWindow.loadFile('./public/index.html');
 };
 
 app.on('ready', createWindow);

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #222;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+aside {
+  border-right: 1px solid white;
+  height: 100vh;
+}
+
+.bar {
+  background: #333;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  font-size: 1.2rem;
+}
